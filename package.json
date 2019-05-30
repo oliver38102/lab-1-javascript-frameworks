@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/oliver38102/lab-1-javascript-frameworks/issues"
   },
-  "homepage": "https://github.com/oliver38102/lab-1-javascript-frameworks#readme"
+  "homepage": "https://github.com/oliver38102/lab-1-javascript-frameworks#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
