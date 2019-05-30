@@ -3,11 +3,11 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('hey `dere world');
+  res.send('route details....couldnt figure out how to make table');
 });
 
 app.get('/about', (req, res) => {
-  res.send('i like long walks on the beach');
+  res.send('My name is Owen Tanner and my student number is 200368970');
 })
 
 app.get('/contact', (req, res) => {
