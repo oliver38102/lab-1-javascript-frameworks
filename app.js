@@ -14,4 +14,5 @@ app.get('/contact', (req, res) => {
     res.send('my info is........');
   })
 
-app.listen(4000, () => console.log('listening on 4000'));
+  const port = (process.env.PORT || 4000);
+  app.listen(port, () => console.log(`listening on ${port}`));
